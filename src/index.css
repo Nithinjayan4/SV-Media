@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+.reveal-delay-6 { transition-delay: 0.6s; }
+
+/* Service card hover */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(30, 45, 107, 0.12);
+  border-color: #e01c6b;
+}
+
+.service-card:hover .service-icon {
+  background: linear-gradient(135deg, #1e2d6b, #e01c6b);
+  color: white;
+}
+
+/* Brand gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #1e2d6b 0%, #e01c6b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Brand button */
+.btn-brand {
+  background: linear-gradient(135deg, #1e2d6b, #e01c6b);
+  color: white;
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-brand:hover {
+  opacity: 0.92;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(224, 28, 107, 0.35);
+}
+
+/* Nav link underline effect */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #1e2d6b, #e01c6b);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Stagger service cards on scroll */
+.service-card.reveal:nth-child(1) { transition-delay: 0.05s; }
+.service-card.reveal:nth-child(2) { transition-delay: 0.1s; }
+.service-card.reveal:nth-child(3) { transition-delay: 0.15s; }
+.service-card.reveal:nth-child(4) { transition-delay: 0.2s; }
+.service-card.reveal:nth-child(5) { transition-delay: 0.25s; }
+.service-card.reveal:nth-child(6) { transition-delay: 0.3s; }
+.service-card.reveal:nth-child(7) { transition-delay: 0.35s; }
+.service-card.reveal:nth-child(8) { transition-delay: 0.4s; }
+.service-card.reveal:nth-child(9) { transition-delay: 0.45s; }
+.service-card.reveal:nth-child(10) { transition-delay: 0.5s; }
+.service-card.reveal:nth-child(11) { transition-delay: 0.55s; }
+
+/* Hero fade up */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-animate {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-animate-1 { animation-delay: 0.1s; opacity: 0; }
+.hero-animate-2 { animation-delay: 0.3s; opacity: 0; }
+.hero-animate-3 { animation-delay: 0.5s; opacity: 0; }
+.hero-animate-4 { animation-delay: 0.7s; opacity: 0; }
+
+/* Floating badge */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-badge {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Input focus */
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #e01c6b !important;
+  box-shadow: 0 0 0 3px rgba(224, 28, 107, 0.1);
+}
