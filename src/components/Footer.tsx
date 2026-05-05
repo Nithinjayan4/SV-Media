@@ -116,7 +116,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Synvexa Media. All rights reserved.
           </p>
           <p className="text-gray-600 text-xs">
-            Designed & developed with Synvexa Media
+            Designed & developed with CraftyDots
           </p>
         </div>
       </div>
