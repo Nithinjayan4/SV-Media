@@ -22,7 +22,7 @@ export default function About() {
               <div className="bg-white rounded-[20px] p-10">
                 <div className="grid grid-cols-2 gap-6">
                   {[
-                    { number: '100+', label: 'Clients Served' },
+                    { number: '50+', label: 'Clients Served' },
                     { number: '200+', label: 'Projects Done' },
                     { number: '5+', label: 'Years Active' },
                     { number: '10+', label: 'Team Members' },
