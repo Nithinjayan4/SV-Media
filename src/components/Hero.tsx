@@ -43,7 +43,7 @@ export default function Hero() {
             </h1>
 
             <p className="hero-animate hero-animate-3 text-lg text-gray-500 leading-relaxed mb-10 max-w-xl">
-              Synvexa Media crafts data-driven marketing strategies that turn clicks into customers. From SEO to Digital Marketing.  We grow businesses that grow.
+              Synvexa Media crafts data-driven marketing strategies that turn clicks into customers. From Website to Digital Marketing.  We grow businesses that grow.
             </p>
 
             <div className="hero-animate hero-animate-4 flex flex-wrap gap-4">
