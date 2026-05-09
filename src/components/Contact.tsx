@@ -46,7 +46,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's Start a Conversation</h3>
               <p className="text-gray-500 leading-relaxed mb-8">
-                Whether you're looking to launch a new campaign, redesign your website, or supercharge your SEO — reach out and our team will get back to you within 24 hours.
+                Whether you're looking to launch a new campaign, redesign your website, or supercharge your SEO  reach out and our team will get back to you within 24 hours.
               </p>
             </div>
 

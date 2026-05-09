@@ -61,7 +61,7 @@ const services = [
   {
     icon: ShoppingBag,
     title: 'Shopify Store Setup',
-    desc: 'End-to-end Shopify stores built to drive sales — from product setup to checkout optimization.',
+    desc: 'End-to-end Shopify stores built to drive sales from product setup to checkout optimization.',
   },
   {
     icon: Store,
