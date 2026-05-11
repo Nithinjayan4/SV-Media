@@ -17,9 +17,8 @@ const services = [
 ];
 
 const socials = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61582264920677', label: 'Facebook' },
+  { icon: Instagram, href: 'https://www.instagram.com/synvexa.media', label: 'Instagram' },
   { icon: Linkedin, href: '#', label: 'LinkedIn' },
 ];
 

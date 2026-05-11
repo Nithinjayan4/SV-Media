@@ -14,7 +14,7 @@ const reasons = [
   {
     icon: HeartHandshake,
     title: 'Client-First Approach',
-    desc: 'We treat your brand as our own — your growth is our motivation.',
+    desc: 'We treat your brand as our own your growth is our motivation.',
   },
   {
     icon: LineChart,
