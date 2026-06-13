@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram,  Linkedin } from 'lucide-react';
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -101,7 +101,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#e01c6b] mt-0.5 flex-shrink-0" />
                 <div className="text-gray-400 text-sm">
-                  <div>Oachira, Kerala</div>
+                  <div>Kollam, Kerala</div>
                   <div>Bangalore, KA</div>
                 </div>
               </li>
