@@ -66,7 +66,7 @@ export default function Contact() {
               {
                 icon: MapPin,
                 label: 'Location',
-                value: 'Oachira, Kerala & Bangalore, KA',
+                value: 'Kollam, Kerala & Bangalore, KA',
                 href: null,
               },
             ].map(({ icon: Icon, label, value, href }) => (
